@@ -1,9 +1,10 @@
 a=int(input())
 temp=a
 sum=0
+l=len(a)
 while num>0:
     r=a%10
-    sum=sum*10+r*r*r
+    sum=sum*10+r**l
     a=a//10
 if sum==temp:
     print("armstrong")
