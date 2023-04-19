@@ -1,0 +1,10 @@
+a=float(input("enter the s:"))
+print("area of square:",a*a)
+b=int(input("enter length:"))
+c=int(input("enter breadth"))
+print("area of rectangle:",b*c)
+d=int(input("base:"))
+e=int(input("height:"))
+print("area of triangle:",0.5*d*e)
+
+
