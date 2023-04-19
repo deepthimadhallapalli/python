@@ -1,7 +1,10 @@
-a=int(input())
+num=int(input())
 rev=0
 while 1:
     rem=num%10
     rev=rev*10+rem
     num=num/10
-print(rev)    
+if num==rev:
+    print("palindrome")
+else:
+    print("not palindrome")
